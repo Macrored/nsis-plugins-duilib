@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Zip
+*.zip
+*.tar
+*.7z
+
+# Folders
+./build/
+.vscode
