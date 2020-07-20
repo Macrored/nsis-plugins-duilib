@@ -14,10 +14,10 @@ Function "MainGui"
     LogSet on
     StrCpy $INSTDIR $EXEDIR
     InitPluginsDir
+    ; StrCpy $PLUGINSDIR "E:\WorkSpace\Code\nsis-plugins-duilib\build\bin\Debug"
     SetOutPath $PLUGINSDIR
-    File "..\build\bin\Release\duilib.dll"
-    File "360SafeRes.zip"
-
+    File /r "skin"
+    ; MessageBox MB_OK "$PLUGINSDIR" 
     NsisPluginsDemo::Frame360
     # your code here
     Quit

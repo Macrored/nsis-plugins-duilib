@@ -9,7 +9,7 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-#include <vld.h>
+// #include <vld.h>
 #include <windows.h>
 #include <nsis/pluginapi.h> // nsis plugin
 #include "360Safe.h"

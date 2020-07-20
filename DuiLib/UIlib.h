@@ -32,13 +32,13 @@
 #else
 #	if defined(UILIB_EXPORTS)
 #		if	defined(_MSC_VER)
-#			define DUILIB_API __declspec(dllexport)
+#			define DUILIB_API // __declspec(dllexport)
 #		else
 #			define DUILIB_API 
 #		endif
 #	else
 #		if defined(_MSC_VER)
-#			define DUILIB_API __declspec(dllimport)
+#			define DUILIB_API // __declspec(dllimport)
 #		else
 #			define DUILIB_API 
 #		endif
